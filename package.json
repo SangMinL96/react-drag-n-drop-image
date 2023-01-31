@@ -1,0 +1,62 @@
+{
+  "name": "react-drag-n-drop-image",
+  "version": "1.2.0",
+  "description": "react-drag-n-drop-image",
+  "main": "dist/cjs/react-drag-n-drop-image.js",
+  "module": "dist/esm/react-drag-n-drop-image.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "rm -rf dist/ && npm run build:esm && npm run build:cjs",
+    "build:esm": "tsc",
+    "build:cjs": "tsc --module CommonJS --outDir dist/cjs",
+    "publish": "npm publish --access=public",
+    "reactstart": "react-scripts start"
+  },
+  "author": "SangMinL96 <hwon3794@gmail.com>",
+  "keywords": [
+    "react",
+    "react-drag-drop",
+    "react-image-upload",
+    "drag",
+    "drop",
+    "upload",
+    "select",
+    "files",
+    "images",
+    "styled-compomnets",
+    "simple"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SangMinL96/react-drag-n-drop-image.git"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "styled-components": "^5.3.6",
+    "typescript": "^4.9.4",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.14.5",
+    "@babel/core": "^7.14.6",
+    "@babel/preset-env": "^7.14.5",
+    "@babel/preset-react": "^7.14.5",
+    "@babel/preset-typescript": "^7.15.0",
+    "@types/react": "^18.0.27",
+    "@types/uuid": "^9.0.0",
+    "@typescript-eslint/eslint-plugin": "^5.49.0",
+    "@typescript-eslint/parser": "^5.49.0",
+    "eslint": "^8.2.0",
+    "eslint-config-airbnb": "19.0.4",
+    "eslint-config-prettier": "^8.6.0",
+    "eslint-plugin-import": "^2.25.3",
+    "eslint-plugin-jsx-a11y": "^6.5.1",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-react": "^7.32.2",
+    "eslint-plugin-react-hooks": "^4.3.0"
+  }
+}
