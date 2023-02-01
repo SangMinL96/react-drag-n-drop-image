@@ -1,6 +1,6 @@
 {
   "name": "react-drag-n-drop-image",
-  "version": "1.2.0",
+  "version": "1.2.5",
   "description": "react-drag-n-drop-image",
   "main": "dist/cjs/react-drag-n-drop-image.js",
   "module": "dist/esm/react-drag-n-drop-image.js",

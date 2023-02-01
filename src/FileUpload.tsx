@@ -89,7 +89,7 @@ function FileUpload({
         width: '100%',
         height: '100%',
       }}
-      onClick={() => isLoading && inputRef && inputRef.current.click()}
+      onClick={() => !isLoading && inputRef && inputRef.current.click()}
     >
       {/* eslint-disable-next-line react/jsx-no-bind */}
       <input ref={inputRef} multiple style={{ display: 'none' }} type='file' accept='image/*' onChange={onChangeFiles} />
